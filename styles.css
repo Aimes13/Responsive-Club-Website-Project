@@ -281,7 +281,7 @@ nav a:visited    {
 
 @media only screen and (max-width:400px) {
   #header-section .title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   #header-section .mobile img {
@@ -358,11 +358,17 @@ nav a:visited    {
 
 @media only screen and (max-width: 400px) {
   #banner-section {
-    top: 3.5rem;
+    top: 4rem;
   }
   
   #banner-section .content {
     width: 85%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #banner-section {
+    top: 5.5rem;
   }
 }
 
@@ -455,6 +461,10 @@ nav a:visited    {
 @media only screen and (max-width: 600px) {
   #about-section {
     top: 4rem;
+  }
+  
+  #about-section .button {
+    width: 17%;
   }
 }
 
