@@ -109,21 +109,24 @@ img, iframe {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .main-content {
-    top: 3rem;
+    top: 5rem;
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .button {
-    margin: 0.2rem 0;
+    letter-spacing: 0.2rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    font-size: 1.2rem;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
   .main-content {
     top: 3rem;
   }
@@ -242,7 +245,22 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 600px) {
+  #header-section .mobile img {
+    height: 2.5rem;
+  }
+
+  #header-section .mobile .button {
+    padding: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  #header-section .title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width:500px) {
   #header-section .title {
     font-size: 1.4rem;
     margin-top: 0.5rem;
@@ -261,7 +279,7 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:400px) {
   #header-section .title {
     font-size: 1.6rem;
   }
@@ -318,7 +336,13 @@ nav a:visited    {
   }  
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
+  #banner-section {
+    top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   #banner-section {
     top: 3rem;
   }
@@ -332,7 +356,7 @@ nav a:visited    {
   }  
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
   #banner-section {
     top: 3.5rem;
   }
@@ -427,8 +451,14 @@ nav a:visited    {
     border-top: 3.5px solid white;
   }
 }
-  
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 600px) {
+  #about-section {
+    top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   #about-section {
     top: 3rem;
   }
@@ -461,7 +491,7 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
   #about-section .button {
     width: 30%;
   }
@@ -561,7 +591,13 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
+  #media-section {
+    top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   #media-section {
     top: 3rem;
     margin-bottom: 0.1rem;
@@ -600,7 +636,7 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
   #media-section iframe {
     width: 100%;
     height: 10rem;
@@ -644,7 +680,7 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   #sub-section {
     top: 3rem;
   }
@@ -654,7 +690,7 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
   #sub-section .button {
     width: 30%;
   }
@@ -723,7 +759,7 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   #footer-section {
     top: 3rem;
   }
@@ -742,7 +778,7 @@ nav a:visited    {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
   #footer-section .copyright {
     font-size: 0.5rem;
   }
