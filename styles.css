@@ -1,95 +1,95 @@
 /* Fonts */
 @font-face {
-    font-family: 'Special Elite';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-    font-family: 'Shadows Into Light Two';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/shadowsintolighttwo/v13/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpAzHGQ.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Shadows Into Light Two';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/shadowsintolighttwo/v13/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpAzHGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-    font-family: 'Gentium Plus';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/gentiumplus/v1/IurC6Ytw-oSPaZ00r2bNe8VRMLRY50ww.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Gentium Plus';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/gentiumplus/v1/IurC6Ytw-oSPaZ00r2bNe8VRMLRY50ww.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* Universal Styles */
 html {
-    font-family: "Merriweather", sans-serif;
-    font-size: 16px;
+  font-family: "Merriweather", sans-serif;
+  font-size: 16px;
 }
 
 h1, h2 {
-    font-family: "Gentium Plus", sans-serif;
+  font-family: "Gentium Plus", sans-serif;
 }
 
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .main-content {
-    position: relative;
-    margin: 0 auto;
-    top: 7rem; /* To offset for fixed header. */
+  position: relative;
+  margin: 0 auto;
+  top: 7rem; /* To offset for fixed header. */
 }
 
 .content {
-    text-align: center;
+  text-align: center;
 }
   
 .button {
-    border-radius: 4px;
-    background-color: mintcream;
-    color: black;
-    font-family: "Shadows Into Light Two";
-    font-weight: bolder;
-    letter-spacing: 0.5rem;
-    margin: 1rem 0;
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 0 0.5rem;
+  border-radius: 4px;
+  background-color: mintcream;
+  color: black;
+  font-family: "Shadows Into Light Two";
+  font-weight: bolder;
+  letter-spacing: 0.5rem;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0 0.5rem;
 }
 
 .button:hover {
-    background-color: yellowgreen;
-    font-size: 3rem;
-    cursor: pointer;
+  background-color: yellowgreen;
+  font-size: 3rem;
+  cursor: pointer;
 }
   
 .button:visited    {
-    color: darkblue;
+  color: darkblue;
 }
 
 .image-container {
-    overflow: hidden;
-    max-width: 100%;
+  overflow: hidden;
+  max-width: 100%;
 }
   
 img, iframe {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -196,12 +196,12 @@ nav a:visited    {
   color: green;
 }
 
-#header-section .mobile, #header-section .tiny {
+#header-section .mobile {
   display: none;
 }
   
 @media only screen and (max-width: 760px) {
-  #header-section .desktop, #header-section .logo, #header-section .tiny {
+  #header-section .desktop, #header-section .logo {
     display: none;
   }
 
@@ -281,26 +281,26 @@ nav a:visited    {
 
 /* Banner Section */
 #banner-section {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 7rem;
-    background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 7rem;
+  background-color: darkslategray;
 }
 
 #banner-section .box {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-    font-size: 1.5rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 1.5rem;
 }
 
 #banner-section .content {
-    width: 70%;
-    margin-bottom: 0.5rem;
-    color: oldlace;
+  width: 70%;
+  margin-bottom: 0.5rem;
+  color: oldlace;
 }
 
 @media only screen and (max-width: 760px) {
